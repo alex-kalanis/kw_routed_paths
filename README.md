@@ -8,14 +8,15 @@
 [![License](https://poser.pugx.org/alex-kalanis/kw_routed_paths/license.svg?v=1)](https://packagist.org/packages/alex-kalanis/kw_routed_paths)
 [![Code Coverage](https://scrutinizer-ci.com/g/alex-kalanis/kw_routed_paths/badges/coverage.png?b=master&v=1)](https://scrutinizer-ci.com/g/alex-kalanis/kw_routed_paths/?branch=master)
 
-Define paths in router of KWCMS. Parse them from REQUEST_URI or other sources.
+Define paths in router of KWCMS. Parse them from REQUEST_URI or other sources. Also allows you
+to make links for that router. More at tests and examples.
 
 ## PHP Installation
 
 ```
 {
     "require": {
-        "alex-kalanis/kw_routed_paths": ">=1.0"
+        "alex-kalanis/kw_routed_paths": ">=2.0"
     }
 }
 ```
@@ -34,6 +35,6 @@ familiar with composer)
 
 4.) Connect library into your bootstrap process.
 
-5.) Just use class "kalanis\kw_routed_paths\RoutedPath" as data storage
+5.) Just use class "kalanis\kw_routed_paths\StoreRouted" as data storage
 
 This package contains example file from KWCMS bootstrap. Use it as reference.
